@@ -44,5 +44,9 @@ public class Main {
         executorService.submit(email);
         String ans = future.get();
         System.out.println(ans);
+
+        System.out.println(1^10000);
     }
 }
+
+
